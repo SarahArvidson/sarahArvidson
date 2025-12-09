@@ -42,17 +42,42 @@ main {
 }
 
 .main-grid {
-  outline: 3px solid red;
 }
 
 .about {
-  background: lightblue;
 }
+
 .projects {
-  background: lightgreen;
 }
+
+.projects li {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.projects li img {
+  width: 200px;
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 8px;
+  display: block;
+}
+
+.projects li a {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.projects li a:hover img {
+  opacity: 0.85;
+  transform: scale(1.02);
+  transition: 0.2s ease;
+}
+
 .skills {
-  background: lightcoral;
 }
 
 h2 {
@@ -70,18 +95,24 @@ p {
 
 /* Nav Bar */
 #nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+  padding: 24px 24px;
   background-color: rgb(18, 54, 151);
-  text-align: right;
-  padding: 20px;
-  position: fixed;
-  z-index: 10;
-  top: 0px;
-  width: 100%;
-  box-sizing: border-box;
 }
 
 #nav button {
-  padding: 7px 10px 7px 10px;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 10px 18px;
+  border-radius: 999px;
+  border: none;
+  background: linear-gradient(135deg, #4f8cff, #7aa7ff);
+  color: white;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 /* Header */
@@ -89,7 +120,7 @@ p {
   position: relative;
   overflow: hidden;
   height: 400px;
-  padding: 65px 0px 5px 0px;
+  padding: 0;
 }
 
 .header h1 {
