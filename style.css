@@ -1,8 +1,8 @@
 /* Universal Styles */
 
 * {
-  font-family: "Molengo", "Rock Salt", "Gill Sans", "Gill Sans MT", Calibri,
-    "Trebuchet MS", sans-serif;
+  font-family: "Molengo", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
   text-align: left;
   line-height: 1.5;
 }
@@ -19,21 +19,40 @@ main {
 
 .main-grid {
   display: grid;
-  grid-template-rows: auto auto auto;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto auto;
+  width: 100%;
   gap: 40px;
 }
 
-.lower-grid {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 40px;
+.about {
+  grid-column: 1 / -1;
 }
 
-.left-stack,
-.right-stack {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
+.quotes {
+  grid-column: 1 / -1;
+}
+
+.projects {
+  grid-column: 1 / 2;
+}
+
+.skills {
+  grid-column: 2 / 3;
+}
+
+.main-grid {
+  outline: 3px solid red;
+}
+
+.about {
+  background: lightblue;
+}
+.projects {
+  background: lightgreen;
+}
+.skills {
+  background: lightcoral;
 }
 
 h2 {
@@ -67,7 +86,6 @@ p {
 
 /* Header */
 .header {
-  font-family: "Rock Salt", Georgia, serif;
   position: relative;
   overflow: hidden;
   height: 400px;
@@ -75,8 +93,9 @@ p {
 }
 
 .header h1 {
-  font-family: "Rock Salt", Georgia, "Times New Roman", Times, serif;
-  font-size: 90px;
+  font-family: "Shadows Into Light Two", Georgia, "Times New Roman", Times,
+    serif;
+  font-size: 110px;
   text-align: center;
   position: absolute;
   color: white;
