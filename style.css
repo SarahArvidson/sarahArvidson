@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #1511f615;
   margin: 0;
 }
 
@@ -77,7 +77,30 @@ main {
   transition: 0.2s ease;
 }
 
+.project-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .skills {
+}
+
+.about,
+.projects,
+.skills {
+  background: white;
+  border-radius: 16px;
+  padding: 32px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.about:hover,
+.projects:hover,
+.skills:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.14);
 }
 
 h2 {
@@ -99,7 +122,7 @@ p {
   justify-content: flex-end;
   gap: 16px;
   padding: 24px 24px;
-  background-color: rgb(18, 54, 151);
+  background-color: rgba(18, 53, 151, 0.73);
   position: sticky;
   top: 0;
   z-index: 100;
@@ -125,6 +148,7 @@ p {
   overflow: hidden;
   height: 400px;
   padding: 0;
+  margin-bottom: 20px;
 }
 
 .header h1 {
@@ -173,12 +197,20 @@ p {
 
 /* Footer */
 .footer {
-  background-color: rgb(18, 54, 151);
+  background-color: rgba(18, 53, 151, 0.73);
 }
 
 .footer h3 {
   color: white;
+  margin: 0;
+  padding-top: 24px;
+  padding-bottom: 8px;
   text-align: center;
-  padding: 20px;
-  margin-bottom: 0;
+}
+
+.footer p {
+  color: white;
+  margin: 0;
+  text-align: center;
+  padding-bottom: 24px;
 }
