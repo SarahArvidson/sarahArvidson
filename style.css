@@ -4,16 +4,36 @@
   font-family: "Molengo", "Rock Salt", "Gill Sans", "Gill Sans MT", Calibri,
     "Trebuchet MS", sans-serif;
   text-align: left;
+  line-height: 1.5;
 }
 
 body {
-  background-color: #a7c9eb;
+  background-color: #ffffff;
   margin: 0;
 }
 
 main {
   padding-left: 40px;
   padding-right: 40px;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 40px;
+}
+
+.lower-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+}
+
+.left-stack,
+.right-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 h2 {
@@ -90,10 +110,28 @@ p {
 
 /* TACO TIME */
 .taco-time {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.45)),
+    url(public/src/tacos.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  color: white;
+}
+
+.taco-time h2 {
+  text-align: center;
 }
 
 /* Skills */
 .skills {
+}
+
+.skills ul {
+  font-size: 18px;
+  line-height: 1.7;
 }
 
 /* Footer */
