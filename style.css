@@ -381,3 +381,48 @@ p {
     margin-left: 6px;
   }
 }
+
+/* Update to Make Things More Legible On Mobile Screens */
+
+@media (max-width: 600px) {
+  /* Nav buttons */
+  #nav a {
+    font-size: 1.1rem;
+    padding: 14px 22px;
+  }
+
+  #nav {
+    gap: 12px;
+  }
+
+  /* Headings */
+  h2 {
+    font-size: 26px;
+  }
+
+  /* Body text */
+  p {
+    font-size: 22px;
+    line-height: 1.6;
+  }
+
+  #highlights,
+  .skills ul {
+    font-size: 20px;
+    line-height: 1.7;
+  }
+
+  /* Card padding */
+  .about,
+  .projects,
+  .skills,
+  .quotes {
+    padding: 24px;
+  }
+
+  /* Project descriptions */
+  .project-description p {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+}
