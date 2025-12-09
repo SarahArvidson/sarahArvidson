@@ -4,7 +4,7 @@ const quotes = [
   '"What is important is not what people do to us, but rather what we do with what people do to us." -Jean-Paul Sartre',
   '"Perfect is the enemy of good" - Voltaire',
   '"Environment is the unseen hand that shapes human behavior." -James Clear',
-  "\"We shouldn'\t take life too seriously... it's not like any of us are going to get out alive.\" -My dad",
+  "\"We shouldn't take life too seriously... it's not like any of us are going to get out alive.\" -My dad",
   '"Wealth is not about having more, but about needing less." -J.L. Collins',
   '"We are what we repeatedly do. Excellence, then, is not an act, but a habit." -Aristotle',
 ];
@@ -31,5 +31,7 @@ function showRandomQuote() {
   quoteElement.classList.add("fade-in");
 }
 
-quoteElement.addEventListener("mouseenter", showRandomQuote);
-quoteElement.addEventListener("click", showRandomQuote);
+if (quoteElement) {
+  quoteElement.addEventListener("mouseenter", showRandomQuote);
+  quoteElement.addEventListener("click", showRandomQuote);
+}
