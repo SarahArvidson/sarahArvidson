@@ -1,0 +1,109 @@
+/* Universal Styles */
+
+* {
+  font-family: "Molengo", "Rock Salt", "Gill Sans", "Gill Sans MT", Calibri,
+    "Trebuchet MS", sans-serif;
+  text-align: left;
+}
+
+body {
+  background-color: #a7c9eb;
+  margin: 0;
+}
+
+main {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+#highlights {
+  font-size: 20px;
+  line-height: 1.7;
+}
+
+/* Nav Bar */
+#nav {
+  background-color: rgb(18, 54, 151);
+  text-align: right;
+  padding: 20px;
+  position: fixed;
+  z-index: 10;
+  top: 0px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#nav button {
+  padding: 7px 10px 7px 10px;
+}
+
+/* Header */
+.header {
+  font-family: "Rock Salt", Georgia, serif;
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+  padding: 65px 0px 5px 0px;
+}
+
+.header h1 {
+  font-family: "Rock Salt", Georgia, "Times New Roman", Times, serif;
+  font-size: 90px;
+  text-align: center;
+  position: absolute;
+  color: white;
+  background: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  line-height: 1.2;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
+}
+
+.header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 70%;
+}
+
+/* About */
+.about {
+}
+
+/* Quotes */
+.quotes {
+}
+
+/* Projects */
+.projects {
+}
+
+/* TACO TIME */
+.taco-time {
+}
+
+/* Skills */
+.skills {
+}
+
+/* Footer */
+.footer {
+  background-color: rgb(18, 54, 151);
+}
+
+.footer h3 {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 0;
+}

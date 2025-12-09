@@ -1,16 +1,24 @@
 <!DOCTYPE html>
-<head> </head>
+<head> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Molengo&family=Rock+Salt&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
 <body>
-  <nav>
+  <nav id="nav">
     <button>About</button>
     <button>TACO TIME</button>
     <button>Projects</button>
     <button>Skills</button>
     <button>Contact</button>
   </nav>
-  <main>
-    <header><h1>Sarah Arvidson</h1></header>
-    <section>
+    <header class="header">
+      <img src="public/src/barcelona.jpg" alt="a view of Barcelona from atop a nearby mountain">
+      <h1>Sarah Arvidson</h1>
+    </header>
+    <main class="main">
+    <section class="about">
       <h2>About</h2>
       <p>
         Hi! Welcome to being right here, right now. Thanks for your
@@ -20,8 +28,7 @@
         a course for it but haven't finished quite yet. I'm obviously interested
         in coding, but I do and have done a great many other things, too. Here
         are some highlights:
-      </p>
-      <ul>
+      <ul id="highlights">
         <li>
           I have two master's degrees and a PhD; they're basically in human
           languages
@@ -32,9 +39,10 @@
           have training in swiftwater rescue and CPR
         </li>
       </ul>
+    </p>
     </section>
-    <section><h4></h4></section>
-    <section><h2>Projects</h2></section>
+    <section class="quotes"><h4></h4></section>
+    <section class="projects"><h2>Projects</h2></section>
     <ul>
       <li>
         <h3>Chatt With Me</h3>
@@ -55,7 +63,7 @@
         </p>
       </li>
     </ul>
-    <section><h2>TACO TIME</h2></section>
+    <section class="taco-time"><h2>TACO TIME</h2></section>
     <p>TACO TIME is an acronym of my own invention! It stands for Take A Chance Often and Taste Its Mighty Effects. </br>
       TACO TIME is a tantalizing way to boil down "the aggregate of marginal gains initiated for self-advancemment through targeted engineering and entrepreneurship skills acquisition." 
       At its core, it's just a self-improvement and progress mindset. I have a lot of enthusiasm and zest for life, and I want to get as much out of it as possible, so I'm usually trying to "level up" in several areas of my life at a time. 
@@ -68,7 +76,7 @@
       Sides (related tasks): read books, listen to podcasts, play coding games on Codepip, work on client projects, audit a computer science course at the university where I work part-time as an adjunct professor. <br />
       Dessert (potential rewards layered on top of meeting the goal): landing a job or enough client work that quitting my full-time teaching job makes financial sense.<br />
       </p></section>
-    <section><h2>Skills</h2>
+    <section class="skills"><h2>Skills</h2>
     <ul><li>HTML5</li>
     <li>CSS</li>
     <li>JavaScript</li>
@@ -76,7 +84,7 @@
     <li> GitHub</li>
 </ul></section>
   </main>
-  <footer>
+  <footer class="footer">
     <section><h3>Contact</h3></section>
   </footer>
   <script src="script.js"></script>
