@@ -1,6 +1,6 @@
-# Sarah Arvidson, PhD
+# [![Typing SVG](https://readme-typing-svg.demolab.com?font=Shadows+Into+Light+Two&size=30&pause=1000&width=435&lines=Sarah+Arvidson%2C+PhD)](https://git.io/typing-svg)
 
-Hi!
+Hi! 
 
 I'm working on becoming a full-stack developer. My background is in human languages, education, and the outdoor industry.
 
