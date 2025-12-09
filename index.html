@@ -11,10 +11,10 @@
 <!--Visible Content-->
 <body>
   <nav id="nav">
-    <button>About</button>
-    <button>Projects</button>
-    <button>Skills</button>
-    <button>Contact</button>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
   </nav>
   <header class="header">
     <img
@@ -27,7 +27,7 @@
   <!--CSS Grid-->
   <main>
     <div class="main-grid">
-      <section class="about">
+      <section class="about" id="about">
         <h2>About</h2>
         <p>
           Hi! Welcome to being right here, right now. Thanks for your
@@ -54,7 +54,7 @@
         </ul>
       </section>
 
-      <section class="projects">
+      <section class="projects" id="projects">
         <h2>Projects</h2>
         <ul>
           <li>
@@ -102,7 +102,7 @@
         </ul>
       </section>
 
-      <section class="skills">
+      <section class="skills" id="skills">
         <h2>Skills</h2>
         <ul>
           <li>HTML5</li>
@@ -120,7 +120,10 @@
   </main>
 
   <footer class="footer">
-    <section><h3>Contact</h3></section>
+    <section class="contact" id="contact">
+      <h3>Contact</h3>
+      <p>arvidsarah@outlook.com</p>
+    </section>
   </footer>
   <script src="script.js"></script>
 </body>
