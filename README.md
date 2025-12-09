@@ -1,6 +1,8 @@
 # [![Typing SVG](https://readme-typing-svg.demolab.com?font=Shadows+Into+Light+Two&size=30&pause=1000&width=435&lines=Sarah+Arvidson%2C+PhD)](https://git.io/typing-svg)
 
-Hi! 
+![long dog animation](public/src/Long%20Dog.gif) 
+
+Hi!
 
 I'm working on becoming a full-stack developer. My background is in human languages, education, and the outdoor industry.
 
@@ -13,6 +15,7 @@ This repository contains the source code for my personal portfolio site and a co
 ## About me
 
 I am a highly-committed developer in development. Before transitioning into tech, I earned multiple advanced degrees, worked and travelled on three different continents, and became a whitewater kayaking instructor in my spare time. I enjoy board games and cards, building practical tools, working on creative projects, traveling, and spending time with my dog.
+
 
 ## Featured projects
 
@@ -49,4 +52,4 @@ This site uses a CSS Grid layout for the main page structure and flexbox for int
 
 ## Contact
 
-- Email: arvidsarah@outlook.com
+- Email: arvidsarah@outlook.com 
