@@ -108,23 +108,6 @@ p {
 .projects {
 }
 
-/* TACO TIME */
-.taco-time {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.45)),
-    url(public/src/tacos.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding-left: 20px;
-  background-color: rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  color: white;
-}
-
-.taco-time h2 {
-  text-align: center;
-}
-
 /* Skills */
 .skills {
 }
