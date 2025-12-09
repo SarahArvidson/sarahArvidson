@@ -10,8 +10,26 @@ const quotes = [
 ];
 
 const quoteElement = document.getElementById("quote-text");
+let lastIndex = -1;
 
-quoteElement.addEventListener("mouseover", () => {
-  const randomIndex = Math.floor(Math.random() * quotes.length);
+function showRandomQuote() {
+  if (navigator.vibrate) {
+    navigator.vibrate(10);
+  }
+
+  let randomIndex;
+
+  do {
+    randomIndex = Math.floor(Math.random() * quotes.length);
+  } while (randomIndex === lastIndex);
+
+  lastIndex = randomIndex;
+
+  quoteElement.classList.remove("fade-in");
+  void quoteElement.offsetWidth;
   quoteElement.textContent = quotes[randomIndex];
-});
+  quoteElement.classList.add("fade-in");
+}
+
+quoteElement.addEventListener("mouseenter", showRandomQuote);
+quoteElement.addEventListener("click", showRandomQuote);
