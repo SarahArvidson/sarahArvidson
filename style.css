@@ -432,18 +432,18 @@ p {
 @media (max-width: 600px) {
   #hamburger {
     display: flex;
-    align-items: center;
     height: 100%;
     position: absolute;
-    left: 20px;
-    top: 0;
+    left: 10px;
+    top: 10px;
+    align-items: center;
   }
 
   #nav {
     position: relative;
     flex-direction: column;
+    gap: 15px;
     align-items: center;
-    gap: 12px;
   }
 
   #nav a {
@@ -451,7 +451,10 @@ p {
     width: 100%;
     text-align: center;
     font-size: 1rem;
-    padding: 10px 16px;
+    padding: 10px;
+    margin-top: 6px;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   #nav.open a {
