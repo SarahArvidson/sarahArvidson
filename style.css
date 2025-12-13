@@ -488,3 +488,20 @@ p {
     line-height: 1.6;
   }
 }
+
+/* Page-Specific Styles */
+
+.cookie-recipe ol {
+  list-style-type: decimal;
+  list-style-position: outside;
+  padding-left: 1.25rem;
+}
+
+.cookie-recipe li {
+  display: list-item
+  gap: 16px;
+}
+
+.cookie-recipe li::marker {
+  font-weight: bold;
+}
