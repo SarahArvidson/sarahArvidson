@@ -40,9 +40,9 @@ Live demo: https://saraharvidson.github.io/gymnastiband/
 - CSS3
 - JavaScript
 
-## How this site was built
+## How my portfolio site was built
 
-This site uses a CSS Grid layout for the main page structure and flexbox for internal component layout. The quotes section uses JavaScript to randomly rotate through inspiring quotes on hover. These are all quotes I've memorized and which deeply influence how I view and navigate the world around me. All styling is custom with no third-party frameworks.
+My portfolio site uses a CSS Grid layout for the main page structure and flexbox for internal component layout. The quotes section uses JavaScript to randomly rotate through inspiring quotes on hover. These are all quotes I've memorized and which deeply influence how I view and navigate the world around me. All styling is custom with no third-party frameworks.
 
 ## Running this project locally
 
