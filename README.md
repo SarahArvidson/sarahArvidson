@@ -14,7 +14,7 @@ This repository contains the source code for my personal portfolio site and a co
 
 ## About me
 
-I am a highly-committed developer in development. Before transitioning into tech, I earned multiple advanced degrees, worked and travelled on three different continents, and became a whitewater kayaking instructor in my spare time. I enjoy board games and cards, building practical tools, working on creative projects, traveling, and spending time with my dog.
+Before transitioning into tech, I earned multiple advanced degrees, worked and travelled on three different continents, and became a whitewater kayaking instructor in my spare time. I enjoy board games and cards, building practical tools, working on creative projects, traveling, and spending time with my dog.
 
 
 ## Featured projects
