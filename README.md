@@ -4,7 +4,7 @@
 
 Hi!
 
-I'm working on becoming a full-stack developer. My background is in human languages, education, and the outdoor industry.
+I'm working on becoming a full-stack engineer. My background is in human languages, education, and the outdoor industry.
 
 This repository contains the source code for my personal portfolio site and a collection of projects I have built while learning web development.
 
